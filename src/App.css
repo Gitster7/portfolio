@@ -212,3 +212,14 @@ a:hover{
   }
 
  }
+
+ @media (max-width: 400px) {
+
+   .header-title{
+     top: 15%;
+   }
+
+   .contact{
+     height: 80%;
+   }
+ }
