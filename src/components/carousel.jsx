@@ -5,8 +5,8 @@ const CarouselPage = () => {
   return (
     <MDBContainer>
       <MDBCarousel
-        activeItem={1}
-        length={6}
+        activeItem={7}
+        length={7}
         showControls={true}
         showIndicators={true}
         className="z-depth-1"
@@ -62,6 +62,15 @@ const CarouselPage = () => {
               <img
                 className="d-block w-100"
                 src="images/Screenshot (16).png"
+                alt="Third slide"
+              />
+            </MDBView>
+          </MDBCarouselItem>
+           <MDBCarouselItem itemId="7">
+            <MDBView>
+              <img
+                className="d-block w-100"
+                src="images/Screenshot (45).png"
                 alt="Third slide"
               />
             </MDBView>
